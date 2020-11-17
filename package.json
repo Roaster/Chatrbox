@@ -1,0 +1,24 @@
+{
+  "name": "chatrbox",
+  "version": "1.0.0",
+  "description": "Chatrbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "parcel build app/scripts/src/main.js -d app/scripts/dist/",
+    "watch": "parcel watch app/scripts/src/main.js -d app/scripts/dist/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "parcel": "^1.12.4",
+    "ws": "^5.2.2"
+  },
+  "devDependencies": {
+    "crypto-js": "^4.0.0",
+    "jquery": "^3.5.1"
+  }
+}
